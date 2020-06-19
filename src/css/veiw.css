@@ -1,0 +1,80 @@
+#mainwindow {
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 14px;
+}
+.leftBodyer{
+    width:30%; /*设定宽度*/
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    position: absolute;
+    background: #363f45;
+}
+.mainBodyer{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fcfcfc;
+}
+.toolbar{
+    width: calc(100% - 20px);
+    height: 48px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px 0;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+    position: relative;
+}
+.toolbar p {
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none
+}
+
+#files{
+    height:calc(100% - 48px);
+    color: #fcfcfc;
+    font-size: medium;
+}
+#filelist{
+    height:calc(100% - 48px);
+}
+.notice-tit{
+    height: 27px;
+    position: relative;
+    background-color: #eaeaea;
+}
+.notice-tit ul{
+    position: absolute;
+    width: auto;
+    left: -1px;
+    
+}
+.notice-tit ul li{
+    float: left;
+    width: auto;
+    height: 26px;
+    line-height: 8px;
+    text-align: center;
+    border-bottom: 1px solid #7c7c7c;
+    padding: 0 3px;
+}
+.notice-tit ul a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.notice-tit ul .t1{
+    background-color: white;
+    border-right: 1px solid #7c7c7c;
+    border-left: 1px solid #7c7c7c;
+    border-bottom: 1px solid white;
+    padding: 0;
+}

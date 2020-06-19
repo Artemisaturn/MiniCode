@@ -1,0 +1,13 @@
+body,html{
+    margin:0px;
+    height:100%;
+}
+
+#txtEditor{
+    width:100%;
+    height:calc(100% - 48px);
+    padding:0px;
+    margin:0px;
+    border:0px;
+    font-size: 25px;
+}

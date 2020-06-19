@@ -1,0 +1,27 @@
+{
+  "name": "dome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager . MiniCode --platform=win32 --arch=x64 --out=G:/Gitee/app1 --app-version=1.0.0 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cmd": "^0.1.0",
+    "cmd-interface": "0.0.5",
+    "devtron": "^1.4.0",
+    "electron": "^8.2.3",
+    "electron-find": "^1.0.6",
+    "electron-reload": "^1.5.0",
+    "iconv-lite": "^0.5.1",
+    "jquery": "^3.5.1",
+    "jquery.terminal": "^1.23.2",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.4"
+  }
+}
