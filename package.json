@@ -15,7 +15,7 @@
     "cmd": "^0.1.0",
     "cmd-interface": "0.0.5",
     "devtron": "^1.4.0",
-    "electron": "^8.2.3",
+    "electron": "^11.5.0",
     "electron-find": "^1.0.6",
     "electron-reload": "^1.5.0",
     "iconv-lite": "^0.5.1",
